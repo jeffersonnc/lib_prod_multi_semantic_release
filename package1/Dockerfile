@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.19.0
 
 ARG VERSION
 ENV VERSION ${VERSION}
